@@ -41,5 +41,8 @@ object Sandbox1 : BuildType({
         script {
             scriptContent = """echo "hello world""""
         }
+        script {
+            scriptContent = """ echo "hello after modification" """
+        }
     }
 })
